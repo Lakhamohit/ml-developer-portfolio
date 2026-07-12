@@ -1,0 +1,152 @@
+{
+    "profile": {
+        "name": "Mohit Lakha",
+        "headline": "AI Video Creator • Prompt Engineer • Creative Technologist",
+        "location": "Punjab, India",
+        "email": "lakhwinderdasslakha10@gmail.com",
+        "website": "https://lakhamohit.github.io",
+        "linkedin": "https://www.linkedin.com/in/er-mohit-lakha/",
+        "github": "https://github.com/Lakhamohit",
+        "orcid": "https://orcid.org/0000-0002-5806-6737",
+        "researchgate": "https://researchgate.net/profile/Mohit-Lakha",
+        "photo": "assets/profile.webp"
+    },
+
+    "summary": "AI Video Creator and Prompt Engineer passionate about cinematic storytelling, generative AI, automation, creative workflows, and modern web technologies. Experienced in engineering, education, AI training, and digital content creation.",
+
+    "experience": [
+
+        {
+            "company": "HKK Entertainment Pvt. Ltd.",
+            "role": "AI Video Creator",
+            "duration": "Present",
+            "location": "On Sites",
+            "description": "Creating AI-generated videos, cinematic storytelling, prompt engineering workflows, creative automation, and visual content."
+        },
+
+        {
+            "company": "Techfynder",
+            "role": "AI Prompt Engineering Trainer",
+            "duration": "May 2025 - Present",
+            "location": "Remote",
+            "description": "Teaching Prompt Engineering, AI tools, and Generative AI."
+        },
+
+        {
+            "company": "Guru Nanak Dev Polytechnic College",
+            "role": "Lecturer",
+            "duration": "Aug 2025 - Nov 2025",
+            "location": "Punjab",
+            "description": "Electrical Engineering Department."
+        },
+
+        {
+            "company": "Outlier",
+            "role": "Math AI Trainer",
+            "duration": "Oct 2024 - Mar 2025",
+            "location": "Remote",
+            "description": "Artificial Intelligence mathematical evaluation and training."
+        },
+
+        {
+            "company": "CT Group of Institutions",
+            "role": "Lecturer",
+            "duration": "Aug 2023 - Apr 2024",
+            "location": "Punjab",
+            "description": "Electrical Engineering Department."
+        }
+
+    ],
+
+    "education": [
+
+        {
+            "degree": "M.Tech in Power Engineering",
+            "college": "Guru Nanak Dev Engineering College",
+            "year": "2021 - 2023",
+            "cgpa": "8.06"
+        },
+
+        {
+            "degree": "B.E. Electrical Engineering",
+            "college": "Chandigarh University",
+            "year": "2017 - 2021",
+            "cgpa": "6.65"
+        }
+
+    ],
+
+    "skills": {
+
+        "technical": [
+
+            "Prompt Engineering",
+
+            "AI Video Creation",
+
+            "HTML",
+
+            "CSS",
+
+            "JavaScript",
+
+            "Photoshop",
+
+            "Premiere Pro",
+
+            "DaVinci Resolve",
+
+            "Generative AI",
+
+            "MATLAB",
+
+            "Microsoft Office",
+
+            "Google Workspace"
+
+        ],
+
+        "soft": [
+
+            "Communication",
+
+            "Leadership",
+
+            "Problem Solving",
+
+            "Critical Thinking",
+
+            "Adaptability",
+
+            "Time Management",
+
+            "Teamwork"
+
+        ]
+
+    },
+
+    "languages": [
+
+        "English",
+
+        "Hindi",
+
+        "Punjabi"
+
+    ],
+
+    "social": {
+
+        "portfolio": "https://lakhamohit.github.io",
+
+        "linkedin": "https://www.linkedin.com/in/er-mohit-lakha/",
+
+        "github": "https://github.com/Lakhamohit",
+
+        "orcid": "https://orcid.org/0000-0002-5806-6737",
+
+        "researchgate": "https://researchgate.net/profile/Mohit-Lakha"
+
+    }
+}
