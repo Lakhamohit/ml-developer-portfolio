@@ -1,0 +1,286 @@
+/* ==========================================================
+   ResumeOS
+   Apple Theme
+========================================================== */
+
+/* ---------- ROOT COLORS ---------- */
+
+:root{
+
+    --background:#fafafa;
+
+    --surface:#ffffff;
+
+    --surface-2:#ffffff;
+
+    --text:#111111;
+
+    --secondary:#6b7280;
+
+    --border:#e5e7eb;
+
+    --accent:#0071e3;
+
+    --shadow:0 12px 40px rgba(0,0,0,.08);
+
+}
+
+/* ---------- BODY ---------- */
+
+body{
+
+    background:var(--background);
+
+    color:var(--text);
+
+}
+
+/* ---------- HEADER ---------- */
+
+header{
+
+    background:rgba(255,255,255,.72);
+
+    border-bottom:1px solid var(--border);
+
+    backdrop-filter:blur(18px);
+
+}
+
+/* ---------- LOGO ---------- */
+
+.logo{
+
+    color:var(--accent);
+
+    letter-spacing:.5px;
+
+}
+
+/* ---------- HERO ---------- */
+
+.hero{
+
+    background:linear-gradient(
+        to bottom,
+        #ffffff,
+        #f8f9fb
+    );
+
+}
+
+.hero h1{
+
+    font-size:4.8rem;
+
+    font-weight:800;
+
+    letter-spacing:-2px;
+
+}
+
+.hero h2{
+
+    font-weight:500;
+
+}
+
+.hero p{
+
+    color:var(--secondary);
+
+}
+
+/* ---------- BUTTON ---------- */
+
+button{
+
+    background:var(--accent);
+
+    color:white;
+
+    border-radius:14px;
+
+    font-weight:600;
+
+}
+
+button:hover{
+
+    filter:brightness(1.05);
+
+    box-shadow:0 10px 25px rgba(0,113,227,.25);
+
+}
+
+/* ---------- SECTION ---------- */
+
+section{
+
+    border-bottom:1px solid rgba(0,0,0,.04);
+
+}
+
+/* ---------- CARD ---------- */
+
+.card{
+
+    background:white;
+
+    border:1px solid var(--border);
+
+    border-radius:22px;
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:var(--shadow);
+
+}
+
+/* ---------- EXPERIENCE ---------- */
+
+#experienceContainer{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+
+    gap:25px;
+
+}
+
+/* ---------- EDUCATION ---------- */
+
+#educationContainer{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:25px;
+
+}
+
+/* ---------- SKILLS ---------- */
+
+#skillsContainer{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+    gap:18px;
+
+}
+
+#skillsContainer .card{
+
+    text-align:center;
+
+    font-weight:600;
+
+}
+
+/* ---------- LANGUAGES ---------- */
+
+#languageContainer{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:16px;
+
+}
+
+#languageContainer .card{
+
+    padding:18px 28px;
+
+}
+
+/* ---------- CONTACT ---------- */
+
+#contactContainer .card{
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+#contactContainer a{
+
+    color:var(--accent);
+
+}
+
+#contactContainer a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* ---------- PANELS ---------- */
+
+.panel{
+
+    background:white;
+
+    border-radius:20px;
+
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+
+    background:white;
+
+}
+
+/* ---------- SCROLLBAR ---------- */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#c7c7c7;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#9f9f9f;
+
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:3rem;
+
+}
+
+.hero{
+
+padding-top:120px;
+
+}
+
+}
