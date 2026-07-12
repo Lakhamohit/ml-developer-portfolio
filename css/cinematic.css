@@ -1,0 +1,10 @@
+:root{
+    --background:#050505;
+    --surface:#111111;
+    --surface-2:#181818;
+    --text:#ffffff;
+    --secondary:#bbbbbb;
+    --border:#333333;
+    --accent:#ff4444;
+    --shadow:0 12px 40px rgba(255,68,68,.20);
+}
