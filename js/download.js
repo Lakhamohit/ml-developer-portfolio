@@ -9,9 +9,6 @@ const downloadButton =
 const downloadPanel =
     document.getElementById("downloadPanel");
 
-const htmlButton =
-    document.getElementById("downloadHTML");
-
 const pdfButton =
     document.getElementById("downloadPDF");
 
@@ -25,44 +22,6 @@ const printButton =
 downloadButton.addEventListener("click",()=>{
 
     downloadPanel.classList.toggle("hidden");
-
-});
-
-/* ========================================================== */
-/* Download HTML */
-/* ========================================================== */
-
-htmlButton.addEventListener("click",()=>{
-
-    const html =
-        document.documentElement.outerHTML;
-
-    const blob =
-        new Blob([html],{
-
-            type:"text/html"
-
-        });
-
-    const url =
-        URL.createObjectURL(blob);
-
-    const link =
-        document.createElement("a");
-
-    link.href = url;
-
-    link.download = "resume.html";
-
-    document.body.appendChild(link);
-
-    link.click();
-
-    document.body.removeChild(link);
-
-    URL.revokeObjectURL(url);
-
-    downloadPanel.classList.add("hidden");
 
 });
 
@@ -90,6 +49,17 @@ pdfButton.addEventListener("click",()=>{
 
 });
 
+/* ==========================================================
+   Close Button
+========================================================== */
+
+document
+.getElementById("closeExport")
+.addEventListener("click",()=>{
+
+    downloadPanel.classList.add("hidden");
+
+});
 /* ========================================================== */
 /* Close Popup */
 /* ========================================================== */
