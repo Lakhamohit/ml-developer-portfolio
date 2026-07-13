@@ -45,14 +45,13 @@ async function loadResume() {
 
 function renderHero(){
 
-    document.getElementById("heroName").textContent =
-        resume.profile.name;
+    document.getElementById("heroName").textContent = resume.profile.name;
 
-    document.getElementById("heroTitle").textContent =
-        resume.profile.headline;
+    document.getElementById("heroTitle").textContent = resume.profile.headline;
 
-    document.getElementById("heroSummary").textContent =
-        resume.summary;
+    document.getElementById("heroSummary").textContent = resume.summary;
+   
+   document.getElementById("profileImage").src = resume.photo;
 
 }
 
