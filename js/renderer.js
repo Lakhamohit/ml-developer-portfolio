@@ -51,7 +51,7 @@ function renderHero(){
 
     document.getElementById("heroSummary").textContent = resume.summary;
    
-   document.getElementById("profileImage").src = resume.photo;
+    document.getElementById("profileImage").src = resume.profile.photo;
 
 }
 
